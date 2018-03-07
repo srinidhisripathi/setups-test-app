@@ -1,0 +1,96 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #F8F8F8;
+  }
+
+.header {
+  background-color: #FFFFFF;
+  padding-bottom: 20px;
+}
+.container {
+  margin: 0 auto;
+}
+
+   .container.narrow {
+      width: 1142px;
+      padding-top: 35px;
+    }
+
+   .container.full {
+      padding: 25px;
+   }
+
+.logo {
+  float: left;
+  background: url("../images/setups-logo.png");
+  background-size: 100px 20px;
+  width: 100px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.menu {
+  float: left;
+  padding-top: 6px;
+  font-size: 12px;
+}
+
+.menu > li {
+  float: left;
+  padding: 0 0 0 30px;
+}
+
+.menu > li > a {
+  text-decoration: none;
+  color: grey;
+}
+
+.account {
+  float: right;
+}
+
+.account .profile {
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-color: black;
+  border-radius: 30px;
+}
+
+.photoblock {
+  background-color: purple;
+  width: 263px;
+  height: 263px;
+  display: block;
+}
+
+.grid > li {
+  float: left;
+  padding: 0 30px 30px 0px;
+}
+
+.grid > li:nth-child(4n) {
+  padding-right: 0;
+}
+
+.nameblock {
+  background-color: #FFFFFF;
+  height: 60px;
+  width: 263px;
+}
+
+.nameblock > a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.name {
+  font-size: 14px;
+  color: grey;
+  padding: 13px 0 0 10px;
+}
+.designation {
+  color: darkgrey;
+  font-size: 11px;
+  padding: 3 0 0 10px;
+}
